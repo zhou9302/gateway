@@ -16,14 +16,14 @@ module.exports = appInfo => {
       threshold: 2048,
     },
     // 设置redis
-    redis: {
-      client: {
-        port: 6379, // Redis port
-        host: '127.0.0.1', // Redis host
-        password: 'auth',
-        db: 0,
-      },
-    },
+    // redis: {
+    //   client: {
+    //     port: 6379, // Redis port
+    //     host: '127.0.0.1', // Redis host
+    //     password: 'auth',
+    //     db: 0,
+    //   },
+    // },
     // mysql配置
     mysql: {
       // 单数据库信息配置
